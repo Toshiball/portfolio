@@ -5,12 +5,18 @@ type ButtonProps = {
 	label: string;
 	value: string;
 	variant: "text" | "outlined" | "contained";
-	onClick?: () => void;
+	onClick?: (value) => void;
 	style?: React.CSSProperties;
 };
 function MenuButton(props: ButtonProps) {
+	const handleClick = (value: string) => {
+		return (event: React.MouseEvent) => {
+			props.onClick && props.onClick(event, value);
+		};
+	};
+
 	return (
-		<Button variant={props.variant || "text"} onClick={props.onClick} sx={props.style}>
+		<Button variant={props.variant || "text"} onClick={handleClick(props.value)} sx={props.style}>
 			{props.label}
 		</Button>
 	);
