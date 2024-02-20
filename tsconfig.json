@@ -1,25 +1,35 @@
 {
   "compilerOptions": {
-    "target": "ES2020",
+    "target": "esnext",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": ["ES2020", "dom", "dom.iterable", "WebWorker"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "types": ["vite/client", "vite-plugin-svgr/client"],
+    "jsxImportSource": "@emotion/react",
+    "skipDefaultLibCheck": true,
 
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    /* Bundler Mode */
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "checkJs": false,
     "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
+    "downlevelIteration": true,
+    "allowImportingTsExtensions": true,
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": false
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "buildOptions": {
+    "verbose": true
+  }
 }
