@@ -13,7 +13,7 @@ function App() {
 
 	return (
 		<Grid container spacing={1}>
-			<Grid item xs={2} sx={{ padding: 0 }}>
+			<Grid item xs={2}>
 				{/*Menu principal // A propops de moi*/}
 				<Menu onChange={handelOnClick} />
 			</Grid>

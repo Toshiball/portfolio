@@ -7,6 +7,7 @@ type ButtonProps = {
 	variant: "text" | "outlined" | "contained";
 	onClick?: (value) => void;
 	style?: React.CSSProperties;
+	isSelected?: string;
 };
 function MenuButton(props: ButtonProps) {
 	const handleClick = (value: string) => {
