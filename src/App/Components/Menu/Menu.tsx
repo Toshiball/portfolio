@@ -8,7 +8,7 @@ type MenuProps = {
 function Menu(props: MenuProps) {
 	const [value, setValue] = React.useState("aboutMe");
 
-	const handelOnClick = (_event: any, value: any) => {
+	const handelOnClick = (_event?: any, value?: any) => {
 		setValue(value);
 		props.onChange && props.onChange(_event, value);
 	};
