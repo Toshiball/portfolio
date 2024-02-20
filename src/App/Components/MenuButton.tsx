@@ -5,7 +5,7 @@ type ButtonProps = {
 	label: string;
 	value: string;
 	variant: "text" | "outlined" | "contained";
-	onClick?: (value) => void;
+	onClick?: (_event: any, value: any) => void;
 	style?: React.CSSProperties;
 	isSelected?: string;
 };
