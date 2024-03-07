@@ -1,4 +1,4 @@
-import MenuButton from "../MenuButton.tsx";
+import MenuButton from "./MenuButton.tsx";
 import { Chip, Divider, Grid, Typography } from "@mui/material";
 import React from "react";
 
