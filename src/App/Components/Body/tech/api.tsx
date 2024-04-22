@@ -47,11 +47,8 @@ function TextAPI() {
 					compétitif sur le marché.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					En parallèle, mes ambitions à long terme incluent l'approfondissement de mes connaissances en design
-					web et l'exploration de domaines connexes tels que l'UX/UI design, élargissant ainsi mes compétences
-					et perspectives professionnelles. Dans cette optique, je prévois de suivre des cours avancés en API
-					REST et en développement back-end, afin de continuer à améliorer mes compétences et demeurer à la
-					pointe de l'industrie.
+					Dans cette optique, je prévois de suivre des cours avancés en API REST et en développement back-end,
+					afin de continuer à améliorer mes compétences et demeurer à la pointe de l'industrie.
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Cette compétence a été mise en œuvre avec succès dans divers projets professionnels, notamment dans

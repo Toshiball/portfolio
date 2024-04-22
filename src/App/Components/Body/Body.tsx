@@ -6,6 +6,7 @@ import TextReact from "./tech/react.tsx";
 import TextJava from "./tech/java.tsx";
 import TextHtmlCss from "./tech/htmlcss.tsx";
 import TextAPI from "./tech/api.tsx";
+import TextJSTS from "./tech/jsts.tsx";
 
 type BodyProps = {
 	value: string;
@@ -26,6 +27,9 @@ function Body(props: BodyProps) {
 				break;
 			case "api":
 				setChild(<TextAPI />);
+				break;
+			case "ts_js":
+				setChild(<TextJSTS />);
 				break;
 		}
 	}, [props.value]);
