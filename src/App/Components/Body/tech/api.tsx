@@ -5,7 +5,7 @@ function TextAPI() {
 		<Box>
 			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
 				<Typography variant="h5" gutterBottom>
-					Compétence en Technologie API
+					Expérience en API
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Mon expertise en matière de technologies API s'est avérée être un atout essentiel dans le

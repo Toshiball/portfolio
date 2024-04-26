@@ -5,7 +5,7 @@ function TextJSTS() {
 		<Box>
 			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
 				<Typography variant="h5" gutterBottom>
-					Compétence en Technologie JS/TS
+					Expérience en JS/TS
 				</Typography>
 				<Typography variant="body1" paragraph>
 					En tant que professionnel dans le domaine de la technologie, ma compétence en JavaScript et

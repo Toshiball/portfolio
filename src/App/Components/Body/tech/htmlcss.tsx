@@ -6,7 +6,7 @@ function TextHtmlCss() {
 		<Box>
 			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
 				<Typography variant="h5" gutterBottom>
-					Expérience en Technologie HTML/CSS
+					Expérience en HTML/CSS
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Maîtriser les subtilités de la technologie HTML/CSS est devenu un élément incontournable dans mon
