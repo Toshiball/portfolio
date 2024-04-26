@@ -28,6 +28,15 @@ function Menu(props: MenuProps) {
 			}}
 		>
 			{/*Add typographie*/}
+			<Grid item sx={{ width: "75%" }}>
+				<MenuButton
+					label={"Accueil"}
+					variant={value === "aboutMe" ? "contained" : "outlined"}
+					value={"aboutMe"}
+					onClick={handelOnClick}
+					style={{ width: "100%", marginTop: "15px" }}
+				/>
+			</Grid>
 			<Divider variant={"middle"} sx={{ width: "85%" }}>
 				<Chip label={<Typography>Compétence</Typography>} color={"info"} />
 			</Divider>
