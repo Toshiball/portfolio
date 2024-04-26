@@ -9,6 +9,7 @@ import TextAPI from "./tech/api.tsx";
 import TextJSTS from "./tech/jsts.tsx";
 import AboutMe from "./AboutMe.tsx";
 import TextAutonomie from "./human/autonomie.tsx";
+import TextCommunication from "./human/communication.tsx";
 
 type BodyProps = {
 	value: string;
@@ -38,6 +39,9 @@ function Body(props: BodyProps) {
 				break;
 			case "autonomie":
 				setChild(<TextAutonomie />);
+				break;
+			case "communication":
+				setChild(<TextCommunication />);
 				break;
 		}
 	}, [props.value]);
