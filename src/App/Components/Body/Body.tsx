@@ -12,6 +12,11 @@ import TextAutonomie from "./human/autonomie.tsx";
 import TextCommunication from "./human/communication.tsx";
 import TextAgile from "./human/agile.tsx";
 import TextDesign from "./human/design.tsx";
+import TextAlternance from "./project/alternance.tsx";
+import TextCinetech from "./project/cinetech.tsx";
+import TextKinacrew from "./project/kinacrew.tsx";
+import TextPoketech from "./project/poketech.tsx";
+import TextStage from "./project/stage.tsx";
 
 type BodyProps = {
 	value: string;
@@ -50,6 +55,21 @@ function Body(props: BodyProps) {
 				break;
 			case "design":
 				setChild(<TextDesign />);
+				break;
+			case "alternance":
+				setChild(<TextAlternance />);
+				break;
+			case "cinetech":
+				setChild(<TextCinetech />);
+				break;
+			case "kinacrew":
+				setChild(<TextKinacrew />);
+				break;
+			case "poketech":
+				setChild(<TextPoketech />);
+				break;
+			case "stage":
+				setChild(<TextStage />);
 				break;
 		}
 	}, [props.value]);
