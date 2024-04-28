@@ -10,6 +10,8 @@ import TextJSTS from "./tech/jsts.tsx";
 import AboutMe from "./AboutMe.tsx";
 import TextAutonomie from "./human/autonomie.tsx";
 import TextCommunication from "./human/communication.tsx";
+import TextAgile from "./human/agile.tsx";
+import TextDesign from "./human/design.tsx";
 
 type BodyProps = {
 	value: string;
@@ -42,6 +44,12 @@ function Body(props: BodyProps) {
 				break;
 			case "communication":
 				setChild(<TextCommunication />);
+				break;
+			case "agile":
+				setChild(<TextAgile />);
+				break;
+			case "design":
+				setChild(<TextDesign />);
 				break;
 		}
 	}, [props.value]);
