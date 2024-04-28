@@ -9,6 +9,11 @@ function TextReact() {
 					Expérience en React
 				</Typography>
 				<Typography variant="body1" paragraph>
+					React est une bibliothèque JavaScript open-source développée par Facebook, utilisée pour la création
+					d'interfaces utilisateur interactives et dynamiques. Elle permet de créer des composants
+					réutilisables qui rendent le développement d'applications web plus efficace et modulaire.
+				</Typography>
+				<Typography variant="body1" paragraph>
 					Ma maîtrise de la technologie React a été un atout précieux dans mon parcours professionnel,
 					notamment lors de la refonte de l’interface de gestion du suivi des récoltes pour une grande
 					entreprise agro-alimentaire. En effet, cette compétence s'est révélée essentielle pour répondre aux
