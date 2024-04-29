@@ -8,6 +8,12 @@ function TextJSTS() {
 					Expérience en JS/TS
 				</Typography>
 				<Typography variant="body1" paragraph>
+					TypeScript est un langage de programmation open-source développé par Microsoft, qui étend JavaScript
+					en lui ajoutant des fonctionnalités de typage statique. TypeScript permet aux développeurs de
+					détecter et de corriger les erreurs de manière plus précoce dans le processus de développement, ce
+					qui améliore la qualité du code JavaScript.
+				</Typography>
+				<Typography variant="body1" paragraph>
 					En tant que professionnel dans le domaine de la technologie, ma compétence en JavaScript et
 					TypeScript a joué un rôle crucial dans mon parcours. Maîtriser ces langages m'a permis de répondre
 					efficacement aux exigences du développement full stack, en particulier lors de la création d'une

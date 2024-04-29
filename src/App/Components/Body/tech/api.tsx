@@ -8,6 +8,11 @@ function TextAPI() {
 					Expérience en API
 				</Typography>
 				<Typography variant="body1" paragraph>
+					Une API est un ensemble de règles et de protocoles qui permettent à différents logiciels de
+					communiquer entre eux. Elle définit les méthodes et les données qui peuvent être utilisées pour
+					interagir avec un logiciel, un service ou un système d'exploitation spécifique.
+				</Typography>
+				<Typography variant="body1" paragraph>
 					Mon expertise en matière de technologies API s'est avérée être un atout essentiel dans le
 					développement back-end d'applications web, garantissant à la fois leur fonctionnalité et leur
 					sécurité. Lors de mon stage, j'ai eu l'opportunité de mettre en pratique cette compétence de manière

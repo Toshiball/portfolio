@@ -9,6 +9,11 @@ function TextHtmlCss() {
 					Expérience en HTML/CSS
 				</Typography>
 				<Typography variant="body1" paragraph>
+					HTML est le langage de balisage utilisé pour créer le contenu d'une page web, tandis que CSS est
+					utilisé pour définir la présentation visuelle de ce contenu. Ensemble, HTML et CSS sont les
+					fondations de la conception web moderne.
+				</Typography>
+				<Typography variant="body1" paragraph>
 					Maîtriser les subtilités de la technologie HTML/CSS est devenu un élément incontournable dans mon
 					parcours professionnel. Cette compétence a été un pilier fondamental dans la satisfaction des
 					exigences de développement front-end pour diverses applications web, garantissant ainsi une

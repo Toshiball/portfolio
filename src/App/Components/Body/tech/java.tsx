@@ -8,6 +8,11 @@ function TextJava() {
 					Expérience en Java
 				</Typography>
 				<Typography variant="body1" paragraph>
+					Java est un langage de programmation polyvalent et orienté objet largement utilisé pour le
+					développement d'applications, en particulier pour les applications d'entreprise, les applications
+					mobiles Android et les applications web.
+				</Typography>
+				<Typography variant="body1" paragraph>
 					Ayant évolué dans divers contextes professionnels et académiques, ma maîtrise de la technologie Java
 					s'est avérée être un atout inestimable. Cette compétence s'est révélée essentielle pour répondre aux
 					exigences de développement d'API tant pour des applications mobiles que web, notamment dans le cadre

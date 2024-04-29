@@ -120,9 +120,9 @@ function Menu(props: MenuProps) {
 			</Grid>
 			<Grid item sx={{ width: "75%" }}>
 				<MenuButton
-					label={"Desing"}
-					variant={value === "desing" ? "contained" : "outlined"}
-					value={"desing"}
+					label={"Design"}
+					variant={value === "design" ? "contained" : "outlined"}
+					value={"design"}
 					onClick={handelOnClick}
 					style={{ width: "100%" }}
 				/>
