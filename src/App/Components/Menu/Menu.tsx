@@ -1,9 +1,10 @@
 import MenuButton from "./MenuButton.tsx";
 import { Chip, Divider, Grid, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 
 type MenuProps = {
 	onChange?: (_event: any, value: any) => void;
+	value?: string;
 };
 function Menu(props: MenuProps) {
 	const [value, setValue] = React.useState("aboutMe");
@@ -12,6 +13,10 @@ function Menu(props: MenuProps) {
 		setValue(value);
 		props.onChange && props.onChange(_event, value);
 	};
+
+	useEffect(() => {
+		setValue(props.value);
+	}, [props.value]);
 
 	return (
 		<Grid
@@ -84,6 +89,15 @@ function Menu(props: MenuProps) {
 					label={"TS/JS"}
 					variant={value === "ts_js" ? "contained" : "outlined"}
 					value={"ts_js"}
+					onClick={handelOnClick}
+					style={{ width: "100%" }}
+				/>
+			</Grid>
+			<Grid item sx={{ width: "75%" }}>
+				<MenuButton
+					label={"SQL"}
+					variant={value === "sql" ? "contained" : "outlined"}
+					value={"sql"}
 					onClick={handelOnClick}
 					style={{ width: "100%" }}
 				/>

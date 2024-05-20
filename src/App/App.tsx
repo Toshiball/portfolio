@@ -24,10 +24,10 @@ function App() {
 		>
 			<Grid item xs={2}>
 				{/*Menu principal // A propops de moi*/}
-				<Menu onChange={handelOnClick} />
+				<Menu onChange={handelOnClick} value={value} />
 			</Grid>
 			<Grid item xs={10} sx={{ padding: 0 }}>
-				<Body value={value} />
+				<Body value={value} handelOnClick={handelOnClick} />
 			</Grid>
 		</Grid>
 	);
