@@ -143,7 +143,7 @@ function Body(props: BodyProps) {
 					return (
 						<MenuButton
 							label={goodstring}
-							variant={"outlined"}
+							variant={"contained"}
 							value={comt}
 							onClick={props.handelOnClick}
 							style={{ marginLeft: 2 }}
@@ -154,7 +154,7 @@ function Body(props: BodyProps) {
 					return (
 						<MenuButton
 							label={proj}
-							variant={"outlined"}
+							variant={"contained"}
 							value={proj}
 							onClick={props.handelOnClick}
 							style={{ marginLeft: 2 }}
