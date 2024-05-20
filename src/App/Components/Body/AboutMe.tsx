@@ -1,4 +1,4 @@
-import { Box, Paper, Typography } from "@mui/material";
+import { Box, Grid, Paper, Typography } from "@mui/material";
 import CustomTimeLine from "./CustomTimeLine.tsx";
 
 function AboutMe() {
@@ -34,7 +34,16 @@ function AboutMe() {
 					jeux tels que Fallout, Metro ou S.T.A.L.K.E.R.
 				</Typography>
 			</Paper>
-			<CustomTimeLine />
+			<Grid container sx={{ display: "flex", flexDirection: "column" }}>
+				<Grid item sx={{ display: "flex", justifyContent: "center" }}>
+					<Typography variant="h4" fontFamily={"Yantramanav"}>
+						Mon parcours
+					</Typography>
+				</Grid>
+				<Grid item>
+					<CustomTimeLine />
+				</Grid>
+			</Grid>
 		</Box>
 	);
 }
