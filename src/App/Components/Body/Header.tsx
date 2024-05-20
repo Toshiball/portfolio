@@ -2,15 +2,21 @@ import { Button, createTheme, Grid, Typography } from "@mui/material";
 import MenuButton from "../Menu/MenuButton.tsx";
 import { useEffect, useState } from "react";
 import Yantramanav from "../../../assets/font/Yantramanav-Medium.ttf";
+import ContactMe from "./ContactMe.tsx";
 
 type HeaderProps = {
 	value: string;
 };
 function Header(props: HeaderProps) {
 	const [title, setTitle] = useState<string>("");
+	const [open, setOpen] = useState(false);
 
-	const handelOnClick = () => {
-		//Pop up
+	const handleOpen = () => {
+		setOpen(true);
+	};
+
+	const handleClose = () => {
+		setOpen(false);
 	};
 
 	useEffect(() => {
@@ -102,7 +108,10 @@ function Header(props: HeaderProps) {
 					height: "100%",
 				}}
 			>
-				<Button variant={"contained"}>Me contacter</Button>
+				<Button variant={"contained"} onClick={handleOpen}>
+					Me contacter
+				</Button>
+				<ContactMe open={open} onClose={handleClose} />
 			</Grid>
 		</Grid>
 	);
