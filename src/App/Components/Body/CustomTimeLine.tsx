@@ -9,7 +9,7 @@ const timelineData = [
 		dateRange: "Septembre 2022 - Aujourd'hui",
 		duration: "2 ans",
 		description: "Développeur Full Stack (React, Node.js, PostgreSQL)",
-		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/QuestInnovicon.png?raw=true", // Ajoutez l'URL de votre image ici
+		image: "https://raw.githubusercontent.com/Toshiball/portfolio/main/src/assets/image/QuestInnovicon.png?token=GHSAT0AAAAAACOL22UVBDKU66QBWZWSVXYAZSLYHMA", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "Stagiaire",
@@ -17,7 +17,7 @@ const timelineData = [
 		dateRange: "Mars 2022 - Août 2022",
 		duration: "6 mois",
 		description: "Développeur Full Stack (React, Node.js, SQL)",
-		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/virtuapix.jpg?raw=true", // Ajoutez l'URL de votre image ici
+		image: "https://raw.githubusercontent.com/Toshiball/portfolio/main/src/assets/image/virtuapix.jpg?token=GHSAT0AAAAAACOL22UVU3K2VOTYD4LOMLUYZSLYHUQ", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "ESIEA",
@@ -25,7 +25,7 @@ const timelineData = [
 		dateRange: "2019 - 2024",
 		duration: "",
 		description: "",
-		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/esiea.png?raw=true", // Ajoutez l'URL de votre image ici
+		image: "https://raw.githubusercontent.com/Toshiball/portfolio/main/src/assets/image/esiea.png?token=GHSAT0AAAAAACOL22UUR4XPKYENQ34VFLSAZSLYHYA", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "Lycée Professionnel Ambroise Croizat",
@@ -33,7 +33,7 @@ const timelineData = [
 		dateRange: "2015 - 2018",
 		duration: "",
 		description: "",
-		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/lycee.png?raw=true", // Ajoutez l'URL de votre image ici
+		image: "https://raw.githubusercontent.com/Toshiball/portfolio/main/src/assets/image/lycee.png?token=GHSAT0AAAAAACOL22UVOBGJXP6MGDMVWGCKZSLYH5A", // Ajoutez l'URL de votre image ici
 	},
 	// Ajoutez autant d'objets que nécessaire pour votre timeline
 ];
