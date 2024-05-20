@@ -9,7 +9,7 @@ const timelineData = [
 		dateRange: "Septembre 2022 - Aujourd'hui",
 		duration: "2 ans",
 		description: "Développeur Full Stack (React, Node.js, PostgreSQL)",
-		image: "./src/assets/image/QuestInnovIcon.png", // Ajoutez l'URL de votre image ici
+		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/QuestInnovicon.png?raw=true", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "Stagiaire",
@@ -17,7 +17,7 @@ const timelineData = [
 		dateRange: "Mars 2022 - Août 2022",
 		duration: "6 mois",
 		description: "Développeur Full Stack (React, Node.js, SQL)",
-		image: "./src/assets/image/virtuapix.jpg", // Ajoutez l'URL de votre image ici
+		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/virtuapix.jpg?raw=true", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "ESIEA",
@@ -25,7 +25,7 @@ const timelineData = [
 		dateRange: "2019 - 2024",
 		duration: "",
 		description: "",
-		image: "./src/assets/image/esiea.png", // Ajoutez l'URL de votre image ici
+		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/esiea.png?raw=true", // Ajoutez l'URL de votre image ici
 	},
 	{
 		title: "Lycée Professionnel Ambroise Croizat",
@@ -33,7 +33,7 @@ const timelineData = [
 		dateRange: "2015 - 2018",
 		duration: "",
 		description: "",
-		image: "./src/assets/image/lycee.png", // Ajoutez l'URL de votre image ici
+		image: "https://github.com/Toshiball/portfolio/blob/main/src/assets/image/lycee.png?raw=true", // Ajoutez l'URL de votre image ici
 	},
 	// Ajoutez autant d'objets que nécessaire pour votre timeline
 ];
