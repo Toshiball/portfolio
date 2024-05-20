@@ -120,7 +120,6 @@ function Body(props: BodyProps) {
 			sx={{
 				display: "flex",
 				flexDirection: "column",
-				width: "100%",
 			}}
 		>
 			<Grid
@@ -132,35 +131,47 @@ function Body(props: BodyProps) {
 			>
 				<Header value={props.value} />
 			</Grid>
-			<Grid item>{child}</Grid>
-			<Grid item sx={{ display: "flex", justifyContent: "center", marginBottom: 2 }}>
-				{linkCompetences.length > 0 && <Typography variant="h5">Compétences</Typography>}
-				{linkProjets.length > 0 && <Typography variant="h5">Projets</Typography>}
-			</Grid>
-			<Grid item sx={{ display: "flex", justifyContent: "center" }}>
-				{linkCompetences.map((comt) => {
-					let goodstring = comt.replace("_", "/");
-					return (
-						<MenuButton
-							label={goodstring}
-							variant={"contained"}
-							value={comt}
-							onClick={props.handelOnClick}
-							style={{ marginLeft: 2 }}
-						/>
-					);
-				})}
-				{linkProjets.map((proj) => {
-					return (
-						<MenuButton
-							label={proj}
-							variant={"contained"}
-							value={proj}
-							onClick={props.handelOnClick}
-							style={{ marginLeft: 2 }}
-						/>
-					);
-				})}
+			<Grid
+				item
+				container
+				sx={{
+					display: "flex",
+					flexDirection: "column",
+					width: "100%",
+					height: "100vh", // Set the height to full viewport height
+					overflow: "auto", // Enable scrolling if content overflows
+				}}
+			>
+				<Grid item>{child}</Grid>
+				<Grid item sx={{ display: "flex", justifyContent: "center", marginBottom: 2 }}>
+					{linkCompetences.length > 0 && <Typography variant="h5">Compétences</Typography>}
+					{linkProjets.length > 0 && <Typography variant="h5">Projets</Typography>}
+				</Grid>
+				<Grid item sx={{ display: "flex", justifyContent: "center" }}>
+					{linkCompetences.map((comt) => {
+						let goodstring = comt.replace("_", "/");
+						return (
+							<MenuButton
+								label={goodstring}
+								variant={"contained"}
+								value={comt}
+								onClick={props.handelOnClick}
+								style={{ marginLeft: 2 }}
+							/>
+						);
+					})}
+					{linkProjets.map((proj) => {
+						return (
+							<MenuButton
+								label={proj}
+								variant={"contained"}
+								value={proj}
+								onClick={props.handelOnClick}
+								style={{ marginLeft: 2 }}
+							/>
+						);
+					})}
+				</Grid>
 			</Grid>
 		</Grid>
 	);

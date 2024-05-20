@@ -17,7 +17,13 @@ function MenuButton(props: ButtonProps) {
 	};
 
 	return (
-		<Button variant={props.variant || "text"} onClick={handleClick(props.value)} sx={props.style}>
+		<Button
+			variant={props.variant || "text"}
+			onClick={handleClick(props.value)}
+			sx={{
+				...props.style,
+			}}
+		>
 			{props.label}
 		</Button>
 	);

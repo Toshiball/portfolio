@@ -1,4 +1,5 @@
 import { Box, Paper, Typography } from "@mui/material";
+import CustomTimeLine from "./CustomTimeLine.tsx";
 
 function AboutMe() {
 	return (
@@ -33,6 +34,7 @@ function AboutMe() {
 					jeux tels que Fallout, Metro ou S.T.A.L.K.E.R.
 				</Typography>
 			</Paper>
+			<CustomTimeLine />
 		</Box>
 	);
 }
