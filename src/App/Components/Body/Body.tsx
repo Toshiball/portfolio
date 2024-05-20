@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import Header from "./Header.tsx";
 import React from "react";
 import fs from "fs";
@@ -18,6 +18,7 @@ import TextKinacrew from "./project/kinacrew.tsx";
 import TextPoketech from "./project/poketech.tsx";
 import TextStage from "./project/stage.tsx";
 import MenuButton from "../Menu/MenuButton.tsx";
+import TextSQL from "./tech/sql.tsx";
 
 type BodyProps = {
 	value: string;
@@ -61,6 +62,7 @@ function Body(props: BodyProps) {
 				setLinkCompetences([]);
 				break;
 			case "sql":
+				setChild(<TextSQL />);
 				setLinkProjets(["cinetech", "alternance", "kinacrew", "stage"]);
 				setLinkCompetences([]);
 				break;
@@ -131,6 +133,10 @@ function Body(props: BodyProps) {
 				<Header value={props.value} />
 			</Grid>
 			<Grid item>{child}</Grid>
+			<Grid item sx={{ display: "flex", justifyContent: "center", marginBottom: 2 }}>
+				{linkCompetences.length > 0 && <Typography variant="h5">Compétences</Typography>}
+				{linkProjets.length > 0 && <Typography variant="h5">Projets</Typography>}
+			</Grid>
 			<Grid item sx={{ display: "flex", justifyContent: "center" }}>
 				{linkCompetences.map((comt) => {
 					let goodstring = comt.replace("_", "/");

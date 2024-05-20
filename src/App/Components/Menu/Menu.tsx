@@ -93,6 +93,15 @@ function Menu(props: MenuProps) {
 					style={{ width: "100%" }}
 				/>
 			</Grid>
+			<Grid item sx={{ width: "75%" }}>
+				<MenuButton
+					label={"SQL"}
+					variant={value === "sql" ? "contained" : "outlined"}
+					value={"sql"}
+					onClick={handelOnClick}
+					style={{ width: "100%" }}
+				/>
+			</Grid>
 			<Divider variant={"middle"} sx={{ width: "55%" }}>
 				<Chip label={<Typography>Humain</Typography>} color={"info"} />
 			</Divider>

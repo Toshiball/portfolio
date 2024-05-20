@@ -1,9 +1,74 @@
-import { Grid } from "@mui/material";
+import { Button, createTheme, Grid, Typography } from "@mui/material";
+import MenuButton from "../Menu/MenuButton.tsx";
+import { useEffect, useState } from "react";
+import Yantramanav from "../../../assets/font/Yantramanav-Medium.ttf";
 
 type HeaderProps = {
 	value: string;
 };
 function Header(props: HeaderProps) {
+	const [title, setTitle] = useState<string>("");
+
+	const handelOnClick = () => {
+		//Pop up
+	};
+
+	useEffect(() => {
+		switch (props.value) {
+			case "aboutMe":
+				setTitle("SARMENTO Christopher");
+				break;
+			case "react":
+				setTitle("React");
+				break;
+			case "java":
+				setTitle("Java");
+				break;
+			case "html_css":
+				setTitle("HTML/CSS");
+				break;
+			case "api":
+				setTitle("API");
+				break;
+			case "ts_js":
+				setTitle("TypeScript/JavaScript");
+				break;
+			case "sql":
+				setTitle("SQL");
+				break;
+			case "autonomie":
+				setTitle("Autonomie");
+				break;
+			case "communication":
+				setTitle("Communication");
+				break;
+			case "agile":
+				setTitle("Agile");
+				break;
+			case "design":
+				setTitle("Design");
+				break;
+			case "alternance":
+				setTitle("Alternance");
+				break;
+			case "cinetech":
+				setTitle("Cinetech");
+				break;
+			case "kinacrew":
+				setTitle("Kinacrew");
+				break;
+			case "poketech":
+				setTitle("Poketech");
+				break;
+			case "stage":
+				setTitle("Stage");
+				break;
+			default:
+				setTitle("A propos de moi");
+				break;
+		}
+	}, [props.value]);
+
 	return (
 		<Grid
 			container
@@ -22,7 +87,9 @@ function Header(props: HeaderProps) {
 					height: "100%",
 				}}
 			>
-				<div>{props.value}</div>
+				<Typography variant={"h3"} fontFamily={"Yantramanav"}>
+					{title}
+				</Typography>
 			</Grid>
 			<Grid
 				item
@@ -35,7 +102,7 @@ function Header(props: HeaderProps) {
 					height: "100%",
 				}}
 			>
-				Outil
+				<Button variant={"contained"}>Me contacter</Button>
 			</Grid>
 		</Grid>
 	);
