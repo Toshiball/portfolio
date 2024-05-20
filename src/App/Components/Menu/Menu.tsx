@@ -15,6 +15,7 @@ function Menu(props: MenuProps) {
 	};
 
 	useEffect(() => {
+		// @ts-ignore
 		setValue(props.value);
 	}, [props.value]);
 
