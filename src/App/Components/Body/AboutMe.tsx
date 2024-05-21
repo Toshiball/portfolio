@@ -11,10 +11,10 @@ function AboutMe() {
 				<Typography variant="body1" paragraph>
 					Je suis Christopher SARMENTO, actuellement en alternance chez Quest Innov. En tant qu'étudiant en 5e
 					année à l'école ESIEA Sud, je poursuis mes études dans le domaine de l'Ingénierie du Logiciel pour
-					obtenir un diplôme d'Expert en Ingénierie du Logiciel (RNCP de niveau 1), après avoir obtenu un
+					obtenir un diplôme d'Expert en Ingénierie du Logiciel (RNCP de niveau 7), après avoir obtenu un
 					baccalauréat professionnel en Systèmes Électroniques et Numériques (SEN). J'ai eu l'opportunité
-					d'intégrer l'équipe de Quest Innov en tant que développeur en alternance, où j'ai maintenant deux
-					ans d'expérience.
+					d'intégrer l'équipe de Quest Innov en tant que développeur Full-Stack, où j'ai maintenant deux ans
+					d'expérience.
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Ma démarche professionnelle est guidée par des valeurs telles que l'apprentissage continu, la
