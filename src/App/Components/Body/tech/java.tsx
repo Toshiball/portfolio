@@ -1,4 +1,5 @@
 import { Box, Paper, Typography } from "@mui/material";
+import { CopyBlock } from "react-code-blocks";
 
 function TextJava() {
 	return (
@@ -19,13 +20,51 @@ function TextJava() {
 					de projets académiques et de groupe.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Lors de mon parcours scolaire, l'une de mes missions les plus mémorables a été de développer une API
-					permettant d'effectuer des requêtes sur une base de données, dans le but de fournir une couverture
-					exhaustive des fonctionnalités pour une application web spécifique. Ma capacité à concevoir des
-					routes efficaces et à optimiser la manipulation des données, notamment lors de l'enregistrement de
-					formulaires, a permis d'atteindre des performances remarquables. En effet, le temps d'appel de l'API
-					a été réduit à moins d'une seconde, ce qui a grandement amélioré l'expérience utilisateur.
+					Lors du projet KinaCrew, l'une de mes missions a été de développer une API (application programming
+					interface ou « interface de programmation d'application ») en Java pour permettre d'effectuer des
+					requêtes à notre base de données MySQL. J'ai pu mettre en place des routes efficaces et optimiser la
+					manipulation des données, notamment lors de l'enregistrement de formulaires. Par exemple, nous
+					devions enregistrer les informations d'un exercice donné par un kiné (le type d'exercice, le nombre
+					de répétitions, la durée de la séance et le lien de la vidéo si une vidéo était disponible) et
+					notifier le patient de son nouveau programme d'exercices. Le challenge était de bien notifier la
+					bonne personne sur l'application mobile.
 				</Typography>
+				<Typography variant="body1" paragraph>
+					Pour réussir à bien envoyer la notification à la bonne personne, nous avons mis en place, lors de la
+					création de l'exercice, un système de notification qui envoie un message à l'utilisateur concerné.
+					Pour commencer, nous devons demander l'autorisation de l'utilisateur pour envoyer des notifications
+					avec le code suivant :
+				</Typography>
+				<CopyBlock
+					startingLineNumber={1}
+					showLineNumbers
+					language={"xml"}
+					text={
+						"<manifest ...>\n" +
+						'    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>\n' +
+						"    <application ...>\n" +
+						"        ...\n" +
+						"    </application>\n" +
+						"</manifest>"
+					}
+				/>
+				<Typography variant="body1" paragraph>
+					Ensuite, nous construisons notre notification :
+				</Typography>
+				<CopyBlock
+					startingLineNumber={1}
+					showLineNumbers
+					language={"java"}
+					text={`NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
+        .setSmallIcon(R.drawable.notification_icon)
+        .setContentTitle("Avez-vous des exercices ?")
+        .setContentText(contentExercice)
+        .setPriority(NotificationCompat.PRIORITY_DEFAULT);`}
+				/>
+				<Typography variant="body1" paragraph>
+					Grâce à ce code, on peut envoyer des notifications au besoin.
+				</Typography>
+				{/**/}
 				<Typography variant="body1" paragraph>
 					Ma maîtrise autonome de Java, acquise au fil de six mois d'expérience pratique, m'a permis de mener
 					à bien ces projets avec efficacité. Je suis constamment à la recherche d'opportunités

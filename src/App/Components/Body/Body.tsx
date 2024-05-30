@@ -137,8 +137,9 @@ function Body(props: BodyProps) {
 				sx={{
 					display: "flex",
 					flexDirection: "column",
+					flexWrap: "nowrap",
 					width: "100%",
-					height: "100vh", // Set the height to full viewport height
+					height: "90vh", // Set the height to full viewport height
 					overflow: "auto", // Enable scrolling if content overflows
 				}}
 			>
