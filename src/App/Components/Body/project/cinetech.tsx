@@ -67,7 +67,7 @@ function TextCinetech() {
 				</Typography>
 				<CopyBlock
 					startingLineNumber={1}
-					customStyle={{ width: "85%", overflowX: "auto" }}
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3", marginBottom: "25px" }}
 					showLineNumbers
 					language={"html"}
 					text={`<p *ngFor="let alert of alerts">
@@ -86,7 +86,7 @@ function TextCinetech() {
 				/>
 				<CopyBlock
 					startingLineNumber={1}
-					customStyle={{ width: "85%", overflowX: "auto" }}
+					customStyle={{ width: "85%", height: "500px", overflowX: "auto", backgroundColor: "#f3f3f3" }}
 					showLineNumbers
 					language={"ts"}
 					text={

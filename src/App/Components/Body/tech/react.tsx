@@ -4,7 +4,18 @@ import { Box, Paper, Typography } from "@mui/material";
 function TextReact() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h5" gutterBottom>
 					Expérience en React
 				</Typography>
@@ -34,6 +45,11 @@ function TextReact() {
 					significatif sur les performances, réduisant le temps de chargement de l’interface de moitié,
 					passant de 3 secondes à moins d’une seconde.
 				</Typography>
+				<img
+					src={"https://storage.akuma.network/api/public/dl/GIC_F7Kf/Portfolio/image/compt/react_1.png"}
+					alt="clipping"
+					style={{ width: "55%", borderRadius: "10px", marginBottom: "20px", marginLeft: "15px" }}
+				/>
 				<Typography variant="body1" paragraph>
 					Je me considère comme autonome dans l'utilisation de React, mais je suis toujours en quête
 					d'optimisations supplémentaires. Je reste constamment à l'affût des dernières fonctionnalités de

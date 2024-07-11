@@ -1,9 +1,21 @@
 import { Box, Paper, Typography } from "@mui/material";
+import { CopyBlock } from "react-code-blocks";
 
 function TextSQL() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h5" gutterBottom>
 					Expérience en SQL
 				</Typography>
@@ -35,6 +47,39 @@ function TextSQL() {
 					utilisateur, ce qui déclenche l'exécution du script SQL permettant de modifier cette valeur dans la
 					base de données.
 				</Typography>
+				<CopyBlock
+					startingLineNumber={1}
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3" }}
+					showLineNumbers
+					language={"sql"}
+					text={
+						"SELECT \n" +
+						"    c.id AS covoiturage_id,\n" +
+						"    c.date,\n" +
+						"    c.depart,\n" +
+						"    c.destination,\n" +
+						"    u.id AS utilisateur_id,\n" +
+						"    u.nom AS utilisateur_nom,\n" +
+						"    u.prenom AS utilisateur_prenom,\n" +
+						"    f.id AS film_id,\n" +
+						"    f.titre AS film_titre,\n" +
+						"    p.id AS passager_id,\n" +
+						"    p.nom AS passager_nom,\n" +
+						"    p.prenom AS passager_prenom\n" +
+						"FROM \n" +
+						"    covoiturage c\n" +
+						"JOIN \n" +
+						"    user u ON c.utilisateur_id = u.id\n" +
+						"JOIN \n" +
+						"    film f ON c.film_id = f.id\n" +
+						"JOIN \n" +
+						"    covoiturage_passagers cp ON c.id = cp.covoiturage_id\n" +
+						"JOIN \n" +
+						"    user p ON cp.passager_id = p.id\n" +
+						"WHERE \n" +
+						"    c.id = [ID_DU_COVOITURAGE];\n"
+					}
+				/>
 				<Typography variant="body1" paragraph>
 					SQL est le langage de requête le plus célèbre et le plus utilisé dans le monde. Comme mentionné
 					précédemment, presque toute application a besoin d'une base de données, et SQL est le langage le

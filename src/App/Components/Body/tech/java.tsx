@@ -4,7 +4,18 @@ import { CopyBlock } from "react-code-blocks";
 function TextJava() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h5" gutterBottom>
 					Expérience en Java
 				</Typography>
@@ -38,6 +49,7 @@ function TextJava() {
 				<CopyBlock
 					startingLineNumber={1}
 					showLineNumbers
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3" }}
 					language={"xml"}
 					text={
 						"<manifest ...>\n" +
@@ -54,6 +66,7 @@ function TextJava() {
 				<CopyBlock
 					startingLineNumber={1}
 					showLineNumbers
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3" }}
 					language={"java"}
 					text={`NotificationCompat.Builder builder = new NotificationCompat.Builder(this, CHANNEL_ID)
         .setSmallIcon(R.drawable.notification_icon)

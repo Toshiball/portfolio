@@ -1,16 +1,28 @@
 import { Box, Paper, Typography } from "@mui/material";
+import { CopyBlock } from "react-code-blocks";
 
 function TextAPI() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h5" gutterBottom>
 					Expérience en API
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Une API est un ensemble de règles et de protocoles qui permettent à différents logiciels de
-					communiquer entre eux. Elle définit les méthodes et les données qui peuvent être utilisées pour
-					interagir avec un logiciel, un service ou un système d'exploitation spécifique.
+					Une API (Application Programming Interface) est un ensemble de règles et de protocoles permettant à
+					différentes applications de communiquer entre elles. Les API sont essentielles pour le développement
+					back-end, garantissant à la fois la fonctionnalité et la sécurité des applications web.
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Mon expertise en matière de technologies API s'est avérée être un atout essentiel dans le
@@ -27,11 +39,32 @@ function TextAPI() {
 					expérience immersive unique.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Grâce à ma maîtrise du PHP et des technologies API, j'ai pu concevoir une API à la fois simple,
-					rapide et sécurisée, intégrant toutes les fonctionnalités demandées. Cette compétence s'est traduite
-					par la création d'une API fonctionnelle qui a grandement amélioré l'expérience utilisateur, assurant
-					fluidité et simplicité dans l'interaction avec l'application.
+					L'une de mes tâches principales a été de concevoir et de développer l'API nécessaire pour gérer
+					l'authentification des utilisateurs, leur création et la gestion de sauvegarde de leur session de
+					travaille. Pour assurer la bonne gestion de session de chaque utilisateur, j'ai mis en place des
+					routes d'accès sécurisées, vérifiant à chaque requête l'identité de l'utilisateur et son niveau
+					d'accréditation. J'ai également implémenté des mécanismes de chiffrement pour protéger les données
+					sensibles et garantir leur confidentialité.
 				</Typography>
+				<CopyBlock
+					startingLineNumber={1}
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3" }}
+					showLineNumbers
+					language={"php"}
+					text={
+						"// Préparer et exécuter la requête SQL pour mettre à jour les données de l'utilisateur\n" +
+						'$stmt = $conn->prepare("UPDATE users SET data = ? WHERE id = ?");\n' +
+						'$stmt->bind_param("si", json_encode($data->data), $user_id);\n' +
+						"\n" +
+						"if ($stmt->execute()) {\n" +
+						"    http_response_code(200);\n" +
+						'    echo json_encode(["message" => "Données mises à jour avec succès."]);\n' +
+						"} else {\n" +
+						"    http_response_code(500);\n" +
+						'    echo json_encode(["message" => "Erreur lors de la mise à jour des données."]);\n' +
+						"}"
+					}
+				/>
 				<Typography variant="body1" paragraph>
 					Classant mon niveau de maîtrise comme confirmé, je demeure cependant toujours en quête de
 					perfectionnement. Je reste constamment à l'affût des nouvelles tendances et bonnes pratiques en
@@ -52,8 +85,11 @@ function TextAPI() {
 					compétitif sur le marché.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Dans cette optique, je prévois de suivre des cours avancés en API REST et en développement back-end,
-					afin de continuer à améliorer mes compétences et demeurer à la pointe de l'industrie.
+					En parallèle, mes ambitions à long terme incluent l'approfondissement de mes connaissances en design
+					web et l'exploration de domaines connexes tels que l'UX/UI design, élargissant ainsi mes compétences
+					et perspectives professionnelles. Dans cette optique, je prévois de suivre des cours avancés en API
+					REST et en développement back-end, afin de continuer à améliorer mes compétences et demeurer à la
+					pointe de l'industrie.
 				</Typography>
 				<Typography variant="body1" paragraph>
 					Cette compétence a été mise en œuvre avec succès dans divers projets professionnels, notamment dans
