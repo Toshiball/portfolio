@@ -78,7 +78,7 @@ function TextKinacrew() {
 				</Typography>
 				<CopyBlock
 					startingLineNumber={1}
-					customStyle={{ width: "85%", overflowX: "auto" }}
+					customStyle={{ width: "85%", overflowX: "auto", backgroundColor: "#f3f3f3" }}
 					showLineNumbers
 					language={"Java"}
 					text={

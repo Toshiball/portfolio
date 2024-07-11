@@ -3,7 +3,18 @@ import { Box, Paper, Typography } from "@mui/material";
 function TextJSTS() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h5" gutterBottom>
 					Expérience en JS/TS
 				</Typography>
@@ -27,6 +38,11 @@ function TextJSTS() {
 					de la photogrammétrie, et d'interagir avec ces éléments en temps réel, offrant ainsi une expérience
 					utilisateur fluide et intuitive.
 				</Typography>
+				<img
+					src={"https://storage.akuma.network/api/public/dl/3NdW8f_J/Portfolio/image/compt/js_ts_1.png"}
+					alt="clipping"
+					style={{ width: "55%", borderRadius: "10px", marginBottom: "20px", marginLeft: "15px" }}
+				/>
 				<Typography variant="body1" paragraph>
 					Grâce à mon expertise, j'ai pu livrer une application simple, rapide et optimisée, répondant à
 					toutes les spécifications requises. Cette réalisation a démontré ma capacité à concevoir des

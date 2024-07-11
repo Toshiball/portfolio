@@ -3,7 +3,18 @@ import { Box, Paper, Typography } from "@mui/material";
 function TextAlternance() {
 	return (
 		<Box>
-			<Paper elevation={3} style={{ padding: "20px", marginBottom: "20px" }}>
+			<Paper
+				elevation={3}
+				style={{
+					padding: "20px",
+					marginBottom: "20px",
+					display: "flex",
+					flexDirection: "column",
+					flexWrap: "nowrap",
+					justifyContent: "center",
+					alignItems: "center",
+				}}
+			>
 				<Typography variant="h4" gutterBottom>
 					Alternance chez Quest Innov : Gestion des Récoltes Agricoles
 				</Typography>
