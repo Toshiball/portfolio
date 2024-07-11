@@ -165,7 +165,7 @@ function Menu(props: MenuProps) {
 			</Grid>
 			<Grid item sx={{ width: "75%" }}>
 				<MenuButton
-					label={"KineCrew"}
+					label={"KinaCrew"}
 					variant={value === "kinacrew" ? "contained" : "outlined"}
 					value={"kinacrew"}
 					onClick={handelOnClick}
