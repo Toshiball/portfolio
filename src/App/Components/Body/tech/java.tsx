@@ -25,26 +25,24 @@ function TextJava() {
 					mobiles Android et les applications web.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Ayant évolué dans divers contextes professionnels et académiques, ma maîtrise de la technologie Java
-					s'est avérée être un atout inestimable. Cette compétence s'est révélée essentielle pour répondre aux
-					exigences de développement d'API tant pour des applications mobiles que web, notamment dans le cadre
-					de projets académiques et de groupe.
+					Au fil de mes expériences scolaires et professionnelles, Java est devenue une vraie force pour moi.
+					Cette compétence m’a permis de créer des API solides, utiles aussi bien pour des applications
+					mobiles que web, surtout dans des projets en équipe.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Lors du projet KinaCrew, l'une de mes missions a été de développer une API (application programming
-					interface ou « interface de programmation d'application ») en Java pour permettre d'effectuer des
-					requêtes à notre base de données MySQL. J'ai pu mettre en place des routes efficaces et optimiser la
-					manipulation des données, notamment lors de l'enregistrement de formulaires. Par exemple, nous
-					devions enregistrer les informations d'un exercice donné par un kiné (le type d'exercice, le nombre
-					de répétitions, la durée de la séance et le lien de la vidéo si une vidéo était disponible) et
-					notifier le patient de son nouveau programme d'exercices. Le challenge était de bien notifier la
-					bonne personne sur l'application mobile.
+					Sur le projet KinaCrew, j’ai eu la chance de développer une API en Java pour communiquer avec notre
+					base de données MySQL. Mon rôle était de mettre en place des « routes » efficaces pour gérer les
+					données, notamment pour enregistrer les formulaires. Par exemple, il fallait garder en mémoire les
+					détails des exercices prescrits par un kiné le type d’exercice, le nombre de répétitions, la durée
+					de la séance, et même le lien vers une vidéo si besoin — puis prévenir le patient que son programme
+					avait été mis à jour.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Pour réussir à bien envoyer la notification à la bonne personne, nous avons mis en place, lors de la
-					création de l'exercice, un système de notification qui envoie un message à l'utilisateur concerné.
-					Pour commencer, nous devons demander l'autorisation de l'utilisateur pour envoyer des notifications
-					avec le code suivant :
+					Le vrai challenge ? Faire en sorte que la notification arrive bien à la bonne personne sur
+					l’application mobile. Pour ça, on a mis en place un système qui demande d’abord la permission à
+					l’utilisateur pour envoyer des notifications, afin d’être sûr de bien suivre chaque patient. Ce
+					projet m’a vraiment appris à construire des solutions efficaces et précises, tout en gardant
+					l’utilisateur final au cœur des préoccupations.
 				</Typography>
 				<CopyBlock
 					startingLineNumber={1}
@@ -77,47 +75,24 @@ function TextJava() {
 				<Typography variant="body1" paragraph>
 					Grâce à ce code, on peut envoyer des notifications au besoin.
 				</Typography>
-				{/**/}
 				<Typography variant="body1" paragraph>
-					Ma maîtrise autonome de Java, acquise au fil de six mois d'expérience pratique, m'a permis de mener
-					à bien ces projets avec efficacité. Je suis constamment à la recherche d'opportunités
-					d'optimisation, en explorant les dernières fonctionnalités de Java pour garantir une qualité
-					toujours plus élevée dans mes réalisations.
+					En six mois d’expérience pratique, j’ai pu acquérir une bonne autonomie en Java, ce qui m’a permis
+					de mener mes projets avec efficacité. J’aime explorer les nouvelles fonctionnalités du langage pour
+					améliorer continuellement la qualité de mon code et optimiser mes réalisations.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Bien que cette compétence ne soit pas cruciale pour mon rôle actuel, je reste convaincu de son
-					importance dans le domaine du développement logiciel. Mon conseil pour les aspirants développeurs
-					est de rester à jour avec les nouvelles versions et les meilleures pratiques de Java, étant donné la
-					dynamique active de sa communauté.
+					Même si Java n’est pas au cœur de mon poste actuel, je reste convaincu que c’est une compétence
+					précieuse dans le développement logiciel. Mon conseil aux développeurs débutants est de toujours se
+					tenir informés des évolutions du langage et des bonnes pratiques, car la communauté Java est très
+					active et en constante évolution.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					À long terme, je ne vise pas nécessairement à devenir un expert Java, mais je reste ouvert à l'idée
-					de me perfectionner dans ce domaine si les opportunités se présentent. Bien que je n'aie pas prévu
-					de suivre des formations spécifiques sur Java dans un avenir proche, mes réalisations antérieures,
-					notamment dans les projets CineTech et KinaCrew, attestent de ma capacité à utiliser cette
-					technologie de manière efficace et créative.
+					Sur le long terme, je ne vise pas forcément à devenir un expert Java, mais je suis toujours ouvert à
+					approfondir mes connaissances si l’occasion se présente. Pour l’instant, je n’ai pas de formation
+					spécifique prévue, mais mes expériences sur des projets comme CineTech et KinaCrew montrent que je
+					sais utiliser Java de manière efficace et créative quand c’est nécessaire.
 				</Typography>
 			</Paper>
-			{/*Ayant évolué dans divers contextes professionnels et académiques, ma maîtrise de la technologie Java
-				s'est avérée être un atout inestimable. Cette compétence s'est révélée essentielle pour répondre aux
-				exigences de développement d'API tant pour des applications mobiles que web, notamment dans le cadre de
-				projets académiques et de groupe. Lors de mon parcours scolaire, l'une de mes missions les plus
-				mémorables a été de développer une API permettant d'effectuer des requêtes sur une base de données, dans
-				le but de fournir une couverture exhaustive des fonctionnalités pour une application web spécifique. Ma
-				capacité à concevoir des routes efficaces et à optimiser la manipulation des données, notamment lors de
-				l'enregistrement de formulaires, a permis d'atteindre des performances remarquables. En effet, le temps
-				d'appel de l'API a été réduit à moins d'une seconde, ce qui a grandement amélioré l'expérience
-				utilisateur. Ma maîtrise autonome de Java, acquise au fil de six mois d'expérience pratique, m'a permis
-				de mener à bien ces projets avec efficacité. Je suis constamment à la recherche d'opportunités
-				d'optimisation, en explorant les dernières fonctionnalités de Java pour garantir une qualité toujours
-				plus élevée dans mes réalisations. Bien que cette compétence ne soit pas cruciale pour mon rôle actuel,
-				je reste convaincu de son importance dans le domaine du développement logiciel. Mon conseil pour les
-				aspirants développeurs est de rester à jour avec les nouvelles versions et les meilleures pratiques de
-				Java, étant donné la dynamique active de sa communauté. À long terme, je ne vise pas nécessairement à
-				devenir un expert Java, mais je reste ouvert à l'idée de me perfectionner dans ce domaine si les
-				opportunités se présentent. Bien que je n'aie pas prévu de suivre des formations spécifiques sur Java
-				dans un avenir proche, mes réalisations antérieures, notamment dans les projets CineTech et KinaCrew,
-				attestent de ma capacité à utiliser cette technologie de manière efficace et créative.*/}
 		</Box>
 	);
 }
