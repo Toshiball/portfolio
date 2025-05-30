@@ -25,26 +25,25 @@ function TextAPI() {
 					back-end, garantissant à la fois la fonctionnalité et la sécurité des applications web.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Mon expertise en matière de technologies API s'est avérée être un atout essentiel dans le
-					développement back-end d'applications web, garantissant à la fois leur fonctionnalité et leur
-					sécurité. Lors de mon stage, j'ai eu l'opportunité de mettre en pratique cette compétence de manière
-					concrète. L'une de mes missions consistait à concevoir une API en PHP, répondant aux normes de
-					sécurité les plus strictes pour protéger à la fois l'API elle-même et la base de données associée.
+					J’ai développé une solide expérience dans l’utilisation des technologies API, ce qui m’a permis de
+					créer des applica‍tions web à la fois fonctionnelles et sécurisées. Pendant mon stage, j’ai
+					notamment conçu une API en PHP en respectant des normes de séc‍urité strictes, afin de protéger les
+					échanges de données et la base de données liée.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Dans ce contexte, mon maître de stage souhaitait enrichir une application web existante avec un
-					système complet de gestion des utilisateurs, incluant la connexion, la création de compte, la
-					gestion de session, ainsi que leur sauvegarde. Cette application permettait aux utilisateurs
-					d'explorer et de manipuler des objets 3D disposés sur une carte mondiale, offrant ainsi une
-					expérience immersive unique.
+					Dans ce cadre, mon maître de stage m’a confié la mission d’‍‍ajouter un système complet de gestion
+					des utilisa‍teurs à une application web existante. Cela incluait la création de compte, la
+					connexion, la gestion des sessions et la sauv‍egarde des données. L’application offrait une
+					expérience immer‍sive en permettant aux utilisateurs d’explorer et de mani‍puler des objets 3D
+					placés sur une carte du monde.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					L'une de mes tâches principales a été de concevoir et de développer l'API nécessaire pour gérer
-					l'authentification des utilisateurs, leur création et la gestion de sauvegarde de leur session de
-					travaille. Pour assurer la bonne gestion de session de chaque utilisateur, j'ai mis en place des
-					routes d'accès sécurisées, vérifiant à chaque requête l'identité de l'utilisateur et son niveau
-					d'accréditation. J'ai également implémenté des mécanismes de chiffrement pour protéger les données
-					sensibles et garantir leur confidentialité.
+					L'une de mes principales missions a été de concevoir et développer l’API perme‍ttant de gérer
+					l’authent‍ification des utilisateurs, la créa‍tion de comptes, ainsi que la sauvegarde de leurs
+					sessions de travail. Pour assurer une gestion sécurisée des sessions, j’ai mis en place des routes
+					protégées qui véri‍fient, à chaque requête, l’iden‍tité de l’utilisateur et son niveau d’accès. J’ai
+					également intégré des mécanismes de chiffrement afin de protéger les donné‍‍es sensibles et garantir
+					leur confidenti‍alité.
 				</Typography>
 				<CopyBlock
 					startingLineNumber={1}
@@ -66,36 +65,31 @@ function TextAPI() {
 					}
 				/>
 				<Typography variant="body1" paragraph>
-					Classant mon niveau de maîtrise comme confirmé, je demeure cependant toujours en quête de
-					perfectionnement. Je reste constamment à l'affût des nouvelles tendances et bonnes pratiques en
-					matière d'API, explorant les forums spécialisés et affinant mes compétences pour garantir une
-					expérience utilisateur toujours plus optimale.
+					Je considère avoir un bon niveau en développement d’API, tout en cherchant constamment à progresser.
+					Je reste attentif aux évolutions du domaine, en explorant régulièrement les nouvelles tendances, les
+					bonnes pratiques et les outils populaires pour rester à jour et proposer des solutions toujours plus
+					efficaces.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					L'importance de cette compétence dans mon rôle actuel ne peut être sous-estimée. Elle me permet de
-					contribuer activement au développement back-end de nos projets, assurant ainsi la qualité et la
-					stabilité de nos services. Après plusieurs mois de travail intensif sur les API, j'ai acquis une
-					expertise significative dans ce domaine, me permettant de travailler de manière autonome sur des
-					projets de grande envergure.
+					Cette compétence est essentielle dans mon travail actuel. Elle me permet de contribuer activement à
+					la qualité, la sécurité et la stabilité du back-end de nos projets. Grâce à plusieurs mois de
+					pratique, j’ai acquis une expertise solide qui me permet aujourd’hui de travailler de manière
+					autonome sur des projets complexes.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Avec le recul, je conseille vivement à tous les professionnels de rester constamment informés sur
-					les nouvelles tendances en matière de sécurité et d'optimisation des API. Se familiariser avec les
-					outils et frameworks populaires est également crucial pour optimiser son flux de travail et rester
-					compétitif sur le marché.
+					Je recommande vivement à tout développeur de rester informé sur les dernières pratiques en matière
+					de sécurité et d’optimisation des API. Maîtriser les bons outils et frameworks fait vraiment la
+					différence pour gagner en efficacité et en qualité.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					En parallèle, mes ambitions à long terme incluent l'approfondissement de mes connaissances en design
-					web et l'exploration de domaines connexes tels que l'UX/UI design, élargissant ainsi mes compétences
-					et perspectives professionnelles. Dans cette optique, je prévois de suivre des cours avancés en API
-					REST et en développement back-end, afin de continuer à améliorer mes compétences et demeurer à la
-					pointe de l'industrie.
+					À long terme, j’aimerais élargir mes compétences en design web, notamment en UX/UI, pour mieux
+					relier les aspects techniques et l’expérience utilisateur. C’est dans cette optique que je prévois
+					de suivre des formations avancées en API REST et en développement back-end.
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Cette compétence a été mise en œuvre avec succès dans divers projets professionnels, notamment dans
-					le cadre de mon expérience en alternance et de mes précédents stages, notamment chez Cinetech. Elle
-					constitue un pilier fondamental de mon parcours professionnel, m'ouvrant ainsi de nouvelles portes
-					vers l'excellence et l'innovation dans le domaine du développement web.
+					Cette compétence a été un véritable atout dans plusieurs de mes expériences professionnelles,
+					notamment en alternance et lors de mes projets, comme chez Cinetech. Elle représente un pilier
+					important de mon parcours dans le développement web.
 				</Typography>
 			</Paper>
 		</Box>
