@@ -20,49 +20,88 @@ function AboutMe() {
 					Qui suis-je ?
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Ma démarche professionnelle est guidée par trois valeurs essentielles : l'apprentissage continu, la
-					curiosité et la rigueur. Je crois fermement que le développement personnel et professionnel passe
-					par une volonté constante d'apprendre et de se perfectionner. Cette philosophie m'incite à
-					m'investir pleinement dans les projets sur lesquels je travaille, tout en cherchant à atteindre mes
-					objectifs de carrière.
+					Je suis un développeur passionné, animé par trois valeurs fondamentales : l'apprentissage continu,
+					la curiosité intellectuelle et la rigueur. Ma démarche professionnelle repose sur la conviction que
+					l’amélioration passe par une remise en question permanente et un effort constant pour progresser,
+					tant sur le plan technique que personnel. Que ce soit dans un cadre académique ou en entreprise, je
+					m’investis pleinement dans les projets qui me sont confiés, avec le souci du travail bien fait, de
+					la collaboration efficace et de l’impact concret.
 				</Typography>
+
 				<Typography variant="h5" gutterBottom>
 					Mon projet professionnel
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Actuellement en alternance chez Quest Innov et étudiant en cinquième année à l'école ESIEA Sud, je
-					me spécialise dans l'Ingénierie du Logiciel. Mon objectif est d'obtenir le diplôme d'Expert en
-					Ingénierie du Logiciel (RNCP de niveau 7), après avoir obtenu un baccalauréat professionnel en
-					Systèmes Électroniques et Numériques (SEN). Chez Quest Innov, en tant que développeur Full-Stack,
-					j'ai accumulé deux années d'expérience. Cette opportunité m'a permis de travailler sur des projets
-					variés et stimulants, renforçant ainsi mes compétences techniques et mon adaptabilité aux besoins du
-					marché.
+					Je suis actuellement en alternance chez Quest Innov en tant que développeur Full-Stack, tout en
+					poursuivant ma cinquième année à l’ESIEA Sud, spécialité Ingénierie du Logiciel. Mon objectif est
+					d’obtenir le diplôme d’Expert en Ingénierie du Logiciel (RNCP niveau 7), après un parcours atypique
+					démarré par un baccalauréat professionnel en Systèmes Électroniques et Numériques (SEN). Chez Quest
+					Innov, j’ai eu l’opportunité de travailler pendant deux années sur des projets techniques concrets,
+					notamment dans le secteur agricole. J’ai contribué au développement d’une application cartographique
+					interactive permettant de visualiser des zones de séchage de bennes à partir de fichiers XLSX et
+					KML. Ce projet m’a permis de renforcer mes compétences en visualisation de données spatiales,
+					architecture logicielle et optimisation d’algorithmes.
 				</Typography>
+
 				<Typography variant="h5" gutterBottom>
-					Mes principales qualités humaines
+					Compétences techniques
 				</Typography>
-				<Typography variant="body1" paragraph>
-					Je suis quelqu'un de passionné par l'apprentissage et la découverte. Ma curiosité intellectuelle me
-					pousse à explorer constamment de nouveaux domaines et à améliorer mes compétences. La rigueur et la
-					persévérance sont également des qualités qui me définissent, me permettant de mener à bien les
-					projets auxquels je participe.
+				<Typography variant="body1" component="div" paragraph>
+					<ul style={{ paddingLeft: "20px" }}>
+						<li>
+							<strong>Front-end :</strong> React 19, React-Leaflet, TypeScript, HTML, CSS
+						</li>
+						<li>
+							<strong>Back-end :</strong> Node.js, PostgreSQL, gestion de fichiers KML/XLSX, manipulation
+							d’objets géospatiaux
+						</li>
+						<li>
+							<strong>Autres outils :</strong> Git, méthodes Agile, gestion de projet avec Notion ou
+							Trello
+						</li>
+					</ul>
 				</Typography>
+
 				<Typography variant="h5" gutterBottom>
-					Mes principaux centres d'intérêt
+					Ma méthode de travail
 				</Typography>
 				<Typography variant="body1" paragraph>
-					La musique tient une place importante dans ma vie. J'apprécie une grande variété de genres musicaux,
-					allant de la Dance/Electro au rock, en passant par la hardstyle et les classiques des années 90. La
-					musique est pour moi une source d'inspiration et de relaxation, que ce soit pour se détendre après
-					une journée de travail ou pour trouver l'énergie nécessaire à la réalisation de nouveaux projets.
+					Je privilégie une approche itérative et orientée utilisateur, en intégrant régulièrement les retours
+					terrain. J’accorde une grande importance à la qualité du code, à sa lisibilité et à sa
+					maintenabilité. Même sans pipeline CI/CD actuellement, je veille à livrer des solutions robustes et
+					documentées.
+				</Typography>
+
+				<Typography variant="h5" gutterBottom>
+					Mes qualités humaines
 				</Typography>
 				<Typography variant="body1" paragraph>
-					Les jeux vidéo constituent une autre de mes grandes passions. J'aime explorer des aventures solo
-					immersives, où je peux me plonger dans l'histoire captivante d'un personnage. De plus, les jeux de
-					construction me permettent d'exprimer ma créativité et d'explorer des mondes nouveaux. Je suis
-					particulièrement fasciné par les univers post-apocalyptiques, comme ceux que l'on retrouve dans des
-					jeux tels que Fallout, Metro ou S.T.A.L.K.E.R. Ces jeux m'offrent un moyen de me détendre et de
-					m'évader du quotidien.
+					Curieux, rigoureux et persévérant, j’aime apprendre, comprendre et partager. Je suis à l’aise dans
+					les environnements collaboratifs, et je cherche toujours à progresser en tirant parti des retours et
+					des expériences collectives.
+				</Typography>
+
+				<Typography variant="h5" gutterBottom>
+					Mes centres d’intérêt
+				</Typography>
+				<Typography variant="body1" paragraph>
+					La musique occupe une place importante dans ma vie. J’écoute une grande variété de genres :
+					Dance/Electro, Rock, Hardstyle, et les classiques des années 90. C’est une source d’énergie et de
+					concentration.
+				</Typography>
+				<Typography variant="body1" paragraph>
+					Je suis aussi passionné de jeux vidéo, notamment d’aventures solo immersives et de jeux de
+					construction. J’ai un attrait particulier pour les univers post-apocalyptiques comme Fallout, Metro
+					ou S.T.A.L.K.E.R., qui stimulent ma créativité et me permettent de m’évader.
+				</Typography>
+
+				<Typography variant="h5" gutterBottom>
+					Objectif futur
+				</Typography>
+				<Typography variant="body1" paragraph>
+					Mon ambition est d’évoluer vers un poste de lead developer ou de référent technique, dans une
+					entreprise innovante et humaine. Je m’intéresse tout particulièrement aux secteurs de l’agriculture
+					connectée, de l’environnement et de la tech responsable.
 				</Typography>
 			</Paper>
 			<Grid container sx={{ display: "flex", flexDirection: "column" }}>

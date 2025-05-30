@@ -4,10 +4,10 @@ import { Typography, Avatar, Popover, Button, Backdrop } from "@mui/material";
 
 const timelineData = [
 	{
-		title: "Alternant",
+		title: "Alternant/Employé",
 		subtitle: "QUEST INNOV",
 		dateRange: "Septembre 2022 - Aujourd'hui",
-		duration: "2 ans",
+		duration: "2 ans 6 mois",
 		description: "Développeur Full Stack (React, Node.js, PostgreSQL)",
 		image: "https://storage.akuma.network/api/public/dl/I18TyHO8/Portfolio/image/QuestInnovicon.png", // Ajoutez l'URL de votre image ici
 		popup:
